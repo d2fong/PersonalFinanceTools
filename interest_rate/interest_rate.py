@@ -1,6 +1,7 @@
 from decimal import Decimal, getcontext
 
-
+# Currently, this class only supports compounding rates, TODO: implement some sort
+# of class for simple interest
 class InterestRate(object):
 
 	DEFAULT_PRECISION = 8
